@@ -18,6 +18,10 @@
             </div>
 
             <div class="col-xs-6">
+              <a href="#" class="visible-xs-inline-block"
+              id="hamburger_icon">
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+              </a>
             <div class="navbar-right">
                 <ul>
                   <li><a href="#">portfolio</a></li>
@@ -63,6 +67,9 @@
               <div class="col-xs-12 col-md-6 col-lg-4">
                 <div class="portfolio_items">
                   <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="">
+                  <div class="portfolio_items_layover">
+                    <i class="fas fa-plus"></i>
+                  </div>
                 </div>
               </div>
               <div class="col-xs-12 col-md-6 col-lg-4">
@@ -100,7 +107,7 @@
     <!--about-->
         <section>
           <div id="about">
-            <div class="wrapper">
+            <div class="wrapper text-center">
               <h2 class="text-center text-uppercase">about</h2>
               <span>
               <div class="divider">
@@ -116,14 +123,15 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                   </div>
+                  <div class="col-xs-12">
+                    <div class="freedownload text-center">
+                      <a href="#">free download!</a>
+                    </div>
+                  </div>
                 </div>
 
               </div>
-              <span>
-              <div class="freedownload text-center">
-                <a href="#">free download!</a>
-              </div>
-              </span>
+
             </div>
 
           </div>
@@ -134,12 +142,25 @@
     <!--contact me-->
         <section id="contact-me">
           <h2 class="text-center text-uppercase">contact me</h2>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                
-              </div>
-            </div>
+          <div class="wrapper">
+              <form>
+                <div class="form-group">
+                  <input type="name" class="form-control input_field" placeholder="name">
+                </div>
+
+                <div class="form-group">
+                  <input type="email" class="form-control input_field" placeholder="email">
+                </div>
+
+                <div class="form-group">
+                  <input type="phone number" class="form-control input_field" placeholder="phone number">
+                </div>
+
+                <div class="form-group">
+                  <textarea type="message" class="form-control input_field" rows="6" placeholder="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">send</button>
+              </form>
           </div>
         </section>
     <!--/contact me-->
